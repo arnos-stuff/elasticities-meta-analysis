@@ -1,0 +1,133 @@
+mean,std,experiment,significance,row,name,control,deductions
+0.060 ,0.031,1,0.1,0,IV: (lagged) mechanical tax rate changes,No Control,Before
+0.075 ,0.056,1,,1,IV-other,No Control,Before
+0.298 ,0.053,1,0.01,2,DID-IV,No Control,Before
+0.332 ,0.059,1,0.01,3,DID-classic,No Control,Before
+-0.213 ,0.024,1,0.01,4,Income Control (none),No Control,Before
+-0.020 ,0.005,1,0.01,5,Income Control (Gruber Saez Spline),No Control,Before
+-0.017 ,0.007,1,0.05,6,Income Control (Kopczuk),No Control,Before
+-0.034 ,0.017,1,0.05,7,Income Control (other),No Control,Before
+0.060 ,0.063,1,,8,Difference Length (1 year),No Control,Before
+-0.013 ,0.021,1,,9,Difference Length (2 years),No Control,Before
+0.082 ,0.042,1,0.1,10,Difference Length (4+ years),No Control,Before
+ 0.061 ,0.033,2,0.1,0,IV: (lagged) mechanical tax rate changes,Control for estimation technique,Before
+ 0.076 ,0.053,2,,1,IV-other,Control for estimation technique,Before
+ 0.269 ,0.066,2,0.01,2,DID-IV,Control for estimation technique,Before
+ 0.304 ,0.072,2,0.01,3,DID-classic,Control for estimation technique,Before
+ -0.216 ,0.023,2,0.01,4,Income Control (none),Control for estimation technique,Before
+ -0.015 ,0.005,2,0.01,5,Income Control (Gruber Saez Spline),Control for estimation technique,Before
+ -0.014 ,0.007,2,0.05,6,Income Control (Kopczuk),Control for estimation technique,Before
+ -0.070 ,0.039,2,0.1,7,Income Control (other),Control for estimation technique,Before
+ 0.054 ,0.057,2,,8,Difference Length (1 year),Control for estimation technique,Before
+ -0.013 ,0.021,2,,9,Difference Length (2 years),Control for estimation technique,Before
+ 0.085 ,0.043,2,0.1,10,Difference Length (4+ years),Control for estimation technique,Before
+ 0.054 ,0.029,3,0.1,0,IV: (lagged) mechanical tax rate changes,Control for estimation technique and sample restrictions,Before
+ 0.081 ,0.044,3,0.1,1,IV-other,Control for estimation technique and sample restrictions,Before
+ 0.224 ,0.105,3,0.05,2,DID-IV,Control for estimation technique and sample restrictions,Before
+ 0.068 ,0.132,3,,3,DID-classic,Control for estimation technique and sample restrictions,Before
+ -0.212 ,0.025,3,0.01,4,Income Control (none),Control for estimation technique and sample restrictions,Before
+ -0.021 ,0.007,3,0.01,5,Income Control (Gruber Saez Spline),Control for estimation technique and sample restrictions,Before
+ -0.014 ,0.005,3,0.05,6,Income Control (Kopczuk),Control for estimation technique and sample restrictions,Before
+ -0.029 ,0.013,3,0.05,7,Income Control (other),Control for estimation technique and sample restrictions,Before
+ 0.033 ,0.045,3,,8,Difference Length (1 year),Control for estimation technique and sample restrictions,Before
+ -0.030 ,0.016,3,0.1,9,Difference Length (2 years),Control for estimation technique and sample restrictions,Before
+ 0.068 ,0.03,3,0.05,10,Difference Length (4+ years),Control for estimation technique and sample restrictions,Before
+ 0.025 ,0.012,4,0.05,0,IV: (lagged) mechanical tax rate changes,"Control for estimation technique, sample restrictions, estimation decade",Before
+ 0.074 ,0.054,4,,1,IV-other,"Control for estimation technique, sample restrictions, estimation decade",Before
+ 0.257 ,0.056,4,0.01,2,DID-IV,"Control for estimation technique, sample restrictions, estimation decade",Before
+ 0.187 ,0.063,4,0.01,3,DID-classic,"Control for estimation technique, sample restrictions, estimation decade",Before
+ -0.209 ,0.028,4,0.01,4,Income Control (none),"Control for estimation technique, sample restrictions, estimation decade",Before
+ -0.013 ,0.007,4,0.1,5,Income Control (Gruber Saez Spline),"Control for estimation technique, sample restrictions, estimation decade",Before
+ -0.015 ,0.007,4,0.05,6,Income Control (Kopczuk),"Control for estimation technique, sample restrictions, estimation decade",Before
+ -0.020 ,0.012,4,0.1,7,Income Control (other),"Control for estimation technique, sample restrictions, estimation decade",Before
+ 0.034 ,0.05,4,,8,Difference Length (1 year),"Control for estimation technique, sample restrictions, estimation decade",Before
+ -0.035 ,0.011,4,0.01,9,Difference Length (2 years),"Control for estimation technique, sample restrictions, estimation decade",Before
+ 0.009 ,0.019,4,,10,Difference Length (4+ years),"Control for estimation technique, sample restrictions, estimation decade",Before
+ 0.025 ,0.015,5,0.1,0,IV: (lagged) mechanical tax rate changes,"Control for estimation technique, sample restrictions, publication decade",Before
+ 0.107 ,0.056,5,0.1,1,IV-other,"Control for estimation technique, sample restrictions, publication decade",Before
+ 0.313 ,0.075,5,0.01,2,DID-IV,"Control for estimation technique, sample restrictions, publication decade",Before
+ 0.149 ,0.065,5,0.05,3,DID-classic,"Control for estimation technique, sample restrictions, publication decade",Before
+ -0.207 ,0.029,5,0.01,4,Income Control (none),"Control for estimation technique, sample restrictions, publication decade",Before
+ -0.016 ,0.005,5,0.01,5,Income Control (Gruber Saez Spline),"Control for estimation technique, sample restrictions, publication decade",Before
+ -0.010 ,0.005,5,0.05,6,Income Control (Kopczuk),"Control for estimation technique, sample restrictions, publication decade",Before
+ -0.009 ,0.009,5,,7,Income Control (other),"Control for estimation technique, sample restrictions, publication decade",Before
+ 0.012 ,0.04,5,,8,Difference Length (1 year),"Control for estimation technique, sample restrictions, publication decade",Before
+ -0.035 ,0.008,5,0.01,9,Difference Length (2 years),"Control for estimation technique, sample restrictions, publication decade",Before
+ 0.026 ,0.021,5,,10,Difference Length (4+ years),"Control for estimation technique, sample restrictions, publication decade",Before
+ 0.026 ,0.017,6,,0,IV: (lagged) mechanical tax rate changes,Control for all variables,Before
+ 0.094 ,0.062,6,,1,IV-other,Control for all variables,Before
+ 0.247 ,0.074,6,0.01,2,DID-IV,Control for all variables,Before
+ 0.091 ,0.068,6,,3,DID-classic,Control for all variables,Before
+ -0.209 ,0.028,6,0.01,4,Income Control (none),Control for all variables,Before
+ -0.013 ,0.007,6,0.1,5,Income Control (Gruber Saez Spline),Control for all variables,Before
+ -0.012 ,0.006,6,0.1,6,Income Control (Kopczuk),Control for all variables,Before
+ -0.033 ,0.019,6,0.1,7,Income Control (other),Control for all variables,Before
+ 0.003 ,0.032,6,,8,Difference Length (1 year),Control for all variables,Before
+ -0.041 ,0.016,6,0.05,9,Difference Length (2 years),Control for all variables,Before
+ 0.027 ,0.022,6,,10,Difference Length (4+ years),Control for all variables,Before
+0.409 ,0.088,1,0.01,0,IV: (lagged) mechanical tax rate changes,No Control,After
+-0.265 ,0.145,1,0.1,1,IV-other,No Control,After
+-0.590 ,0.224,1,0.05,2,DID-IV,No Control,After
+-0.188 ,0.372,1,,3,DID-classic,No Control,After
+0.108 ,0.078,1,,4,Income Control (none),No Control,After
+-0.100 ,0.068,1,,5,Income Control (Gruber Saez Spline),No Control,After
+-0.371 ,0.043,1,0.01,6,Income Control (Kopczuk),No Control,After
+-0.195 ,0.075,1,0.05,7,Income Control (other),No Control,After
+-0.048 ,0.106,1,,8,Difference Length (1 year),No Control,After
+0.033 ,0.086,1,,9,Difference Length (2 years),No Control,After
+0.285 ,0.191,1,,10,Difference Length (4+ years),No Control,After
+ 0.362 ,0.127,2,0.01,0,IV: (lagged) mechanical tax rate changes,Control for estimation technique,After
+ -0.253 ,0.155,2,,1,IV-other,Control for estimation technique,After
+ -0.615 ,0.219,2,0.01,2,DID-IV,Control for estimation technique,After
+ -0.200 ,0.334,2,,3,DID-classic,Control for estimation technique,After
+ 0.074 ,0.084,2,,4,Income Control (none),Control for estimation technique,After
+ -0.007 ,0.029,2,,5,Income Control (Gruber Saez Spline),Control for estimation technique,After
+ -0.231 ,0.074,2,0.01,6,Income Control (Kopczuk),Control for estimation technique,After
+ -0.134 ,0.115,2,,7,Income Control (other),Control for estimation technique,After
+ -0.079 ,0.131,2,,8,Difference Length (1 year),Control for estimation technique,After
+ 0.045 ,0.081,2,,9,Difference Length (2 years),Control for estimation technique,After
+ 0.187 ,0.2,2,,10,Difference Length (4+ years),Control for estimation technique,After
+ 0.420 ,0.061,3,0.01,0,IV: (lagged) mechanical tax rate changes,Control for estimation technique and sample restrictions,After
+ -0.246 ,0.118,3,0.05,1,IV-other,Control for estimation technique and sample restrictions,After
+ -0.702 ,0.281,3,0.05,2,DID-IV,Control for estimation technique and sample restrictions,After
+ -0.189 ,0.363,3,,3,DID-classic,Control for estimation technique and sample restrictions,After
+ 0.045 ,0.089,3,,4,Income Control (none),Control for estimation technique and sample restrictions,After
+ -0.137 ,0.068,3,0.05,5,Income Control (Gruber Saez Spline),Control for estimation technique and sample restrictions,After
+ -0.387 ,0.075,3,0.01,6,Income Control (Kopczuk),Control for estimation technique and sample restrictions,After
+ -0.331 ,0.132,3,0.05,7,Income Control (other),Control for estimation technique and sample restrictions,After
+ 0.073 ,0.074,3,,8,Difference Length (1 year),Control for estimation technique and sample restrictions,After
+ 0.019 ,0.119,3,,9,Difference Length (2 years),Control for estimation technique and sample restrictions,After
+ 0.182 ,0.212,3,,10,Difference Length (4+ years),Control for estimation technique and sample restrictions,After
+ 0.333 ,0.079,4,0.01,0,IV: (lagged) mechanical tax rate changes,"Control for estimation technique, sample restrictions, estimation decade",After
+ 0.069 ,0.275,4,,1,IV-other,"Control for estimation technique, sample restrictions, estimation decade",After
+ -0.379 ,0.273,4,,2,DID-IV,"Control for estimation technique, sample restrictions, estimation decade",After
+ -0.061 ,0.402,4,,3,DID-classic,"Control for estimation technique, sample restrictions, estimation decade",After
+ 0.084 ,0.087,4,,4,Income Control (none),"Control for estimation technique, sample restrictions, estimation decade",After
+ -0.110 ,0.069,4,,5,Income Control (Gruber Saez Spline),"Control for estimation technique, sample restrictions, estimation decade",After
+ -0.229 ,0.091,4,0.05,6,Income Control (Kopczuk),"Control for estimation technique, sample restrictions, estimation decade",After
+ -0.066 ,0.114,4,,7,Income Control (other),"Control for estimation technique, sample restrictions, estimation decade",After
+ -0.066 ,0.121,4,,8,Difference Length (1 year),"Control for estimation technique, sample restrictions, estimation decade",After
+ -0.058 ,0.078,4,,9,Difference Length (2 years),"Control for estimation technique, sample restrictions, estimation decade",After
+ 0.139 ,0.204,4,,10,Difference Length (4+ years),"Control for estimation technique, sample restrictions, estimation decade",After
+ 0.207 ,0.074,5,0.01,0,IV: (lagged) mechanical tax rate changes,"Control for estimation technique, sample restrictions, publication decade",After
+ 0.197 ,0.218,5,,1,IV-other,"Control for estimation technique, sample restrictions, publication decade",After
+ -0.289 ,0.475,5,,2,DID-IV,"Control for estimation technique, sample restrictions, publication decade",After
+ -0.178 ,0.305,5,,3,DID-classic,"Control for estimation technique, sample restrictions, publication decade",After
+ -0.249 ,0.159,5,,4,Income Control (none),"Control for estimation technique, sample restrictions, publication decade",After
+ -0.119 ,0.088,5,,5,Income Control (Gruber Saez Spline),"Control for estimation technique, sample restrictions, publication decade",After
+ 0.025 ,0.104,5,,6,Income Control (Kopczuk),"Control for estimation technique, sample restrictions, publication decade",After
+ 0.048 ,0.124,5,,7,Income Control (other),"Control for estimation technique, sample restrictions, publication decade",After
+ 0.119 ,0.09,5,,8,Difference Length (1 year),"Control for estimation technique, sample restrictions, publication decade",After
+ 0.057 ,0.105,5,,9,Difference Length (2 years),"Control for estimation technique, sample restrictions, publication decade",After
+ -0.362 ,0.242,5,,10,Difference Length (4+ years),"Control for estimation technique, sample restrictions, publication decade",After
+ 0.141 ,0.069,6,0.05,0,IV: (lagged) mechanical tax rate changes,Control for all variables,After
+ 0.009 ,0.193,6,,1,IV-other,Control for all variables,After
+ -0.393 ,0.468,6,,2,DID-IV,Control for all variables,After
+ -0.166 ,0.281,6,,3,DID-classic,Control for all variables,After
+ -0.237 ,0.163,6,,4,Income Control (none),Control for all variables,After
+ -0.048 ,0.119,6,,5,Income Control (Gruber Saez Spline),Control for all variables,After
+ 0.126 ,0.076,6,,6,Income Control (Kopczuk),Control for all variables,After
+ 0.082 ,0.161,6,,7,Income Control (other),Control for all variables,After
+ 0.103 ,0.105,6,,8,Difference Length (1 year),Control for all variables,After
+ 0.053 ,0.109,6,,9,Difference Length (2 years),Control for all variables,After
+ -0.399 ,0.235,6,0.1,10,Difference Length (4+ years),Control for all variables,After
