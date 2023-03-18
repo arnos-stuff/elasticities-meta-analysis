@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a replication of the paper "Meta Analysis of Elasticities of Income Taxation" by [Neisser et al. (2017)](https://www.econstor.eu/handle/10419/168333). The paper is a meta analysis of the literature on the elasticity of income taxation. The authors use a meta regression approach to estimate the elasticity of income taxation.
+This is an attempt to open source the estimations of the paper by [Neisser et al. (2017)](https://www.econstor.eu/handle/10419/168333). The paper is a meta analysis of the literature on the elasticity of income taxation. The authors use a meta regression approach to estimate the elasticity of income taxation.
 
 ## Get data using CDN API
 
